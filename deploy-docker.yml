@@ -1,6 +1,7 @@
 ---
 - name: Pull Docker image
   hosts: all
+  remote_user: root
   tasks:
     - name: Pull image
       docker_image:
