@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd042982-d802-49fa-adb0-14919692ad68" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ovg376Pqs8bbNEsYf6jvhQ8xzL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd042982-d802-49fa-adb0-14919692ad68" name="Default Changelist" comment="" />
+      <created>1614172283926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614172283926</updated>
+      <workItem from="1614172287879" duration="2833000" />
+      <workItem from="1614178095674" duration="744000" />
+      <workItem from="1614179202469" duration="4444000" />
+      <workItem from="1615013428722" duration="516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="27" width="788" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1614174876442">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="320" y="27" width="788" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/72.27.1294.636@72.27.1294.636" timestamp="1614174876442" />
+    <state x="314" y="27" width="800" height="636" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615013477778">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="314" y="27" width="800" height="636" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/72.27.1294.636@72.27.1294.636" timestamp="1615013477778" />
+    <state x="461" y="88" width="495" height="520" key="FileChooserDialogImpl" timestamp="1614173571004">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="461" y="88" width="495" height="520" key="FileChooserDialogImpl/72.27.1294.636@72.27.1294.636" timestamp="1614173571004" />
+    <state x="202" y="27" width="1024" height="636" key="SettingsEditor" timestamp="1614174124570">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="202" y="27" width="1024" height="636" key="SettingsEditor/72.27.1294.636@72.27.1294.636" timestamp="1614174124570" />
+    <state x="231" y="49" width="965" height="599" key="new project wizard" timestamp="1614174419955">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="231" y="49" width="965" height="599" key="new project wizard/72.27.1294.636@72.27.1294.636" timestamp="1614174419955" />
+    <state x="383" y="148" key="run.anything.popup" timestamp="1614174112601">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="383" y="148" key="run.anything.popup/72.27.1294.636@72.27.1294.636" timestamp="1614174112601" />
+  </component>
+</project>
