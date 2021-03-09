@@ -3,8 +3,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd042982-d802-49fa-adb0-14919692ad68" name="Default Changelist" comment="" />
+    <list default="true" id="cd042982-d802-49fa-adb0-14919692ad68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DivideTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/DivideTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DivideTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-DivideTest.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +43,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,7 +64,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="snowflake" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -41,24 +76,76 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FactorialTest">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <module name="Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NaturalLogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NaturalLogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PowerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SquareRootTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FactorialTest" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="JUnit.SquareRootTest" />
+        <item itemvalue="JUnit.PowerTest" />
+        <item itemvalue="JUnit.NaturalLogTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,30 +158,79 @@
       <workItem from="1614172287879" duration="2833000" />
       <workItem from="1614178095674" duration="744000" />
       <workItem from="1614179202469" duration="4444000" />
-      <workItem from="1615013428722" duration="516000" />
+      <workItem from="1615013428722" duration="15488000" />
+      <workItem from="1615275609351" duration="6680000" />
     </task>
+    <task id="LOCAL-00001" summary="First bare code on add/divide to check pipeline flow">
+      <created>1615014222135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615014222139</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First bare code on add/divide to check pipeline flow" />
+    <MESSAGE value="Dockerfile added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile added" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="314" y="27" width="800" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615018467680">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="314" y="27" width="800" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.636@72.27.1294.636" timestamp="1615018467680" />
+    <state x="412" y="147" width="627" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615026966465">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="412" y="147" width="627" height="410" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.636@72.27.1294.636" timestamp="1615026966465" />
     <state x="320" y="27" width="788" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1614174876442">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
     <state x="320" y="27" width="788" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/72.27.1294.636@72.27.1294.636" timestamp="1614174876442" />
-    <state x="314" y="27" width="800" height="636" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615013477778">
+    <state x="314" y="27" width="800" height="636" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615275607664">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
-    <state x="314" y="27" width="800" height="636" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/72.27.1294.636@72.27.1294.636" timestamp="1615013477778" />
-    <state x="461" y="88" width="495" height="520" key="FileChooserDialogImpl" timestamp="1614173571004">
+    <state x="314" y="27" width="800" height="636" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/72.27.1294.636@72.27.1294.636" timestamp="1615275607664" />
+    <state x="461" y="88" width="495" height="520" key="FileChooserDialogImpl" timestamp="1615018659260">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
-    <state x="461" y="88" width="495" height="520" key="FileChooserDialogImpl/72.27.1294.636@72.27.1294.636" timestamp="1614173571004" />
-    <state x="202" y="27" width="1024" height="636" key="SettingsEditor" timestamp="1614174124570">
+    <state x="461" y="88" width="495" height="520" key="FileChooserDialogImpl/72.27.1294.636@72.27.1294.636" timestamp="1615018659260" />
+    <state width="1248" height="317" key="GridCell.Tab.0.bottom" timestamp="1615282641415">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
-    <state x="202" y="27" width="1024" height="636" key="SettingsEditor/72.27.1294.636@72.27.1294.636" timestamp="1614174124570" />
+    <state width="1248" height="317" key="GridCell.Tab.0.bottom/72.27.1294.636@72.27.1294.636" timestamp="1615282641415" />
+    <state width="1248" height="317" key="GridCell.Tab.0.center" timestamp="1615282641409">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state width="1248" height="317" key="GridCell.Tab.0.center/72.27.1294.636@72.27.1294.636" timestamp="1615282641409" />
+    <state width="1248" height="317" key="GridCell.Tab.0.left" timestamp="1615282641406">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state width="1248" height="317" key="GridCell.Tab.0.left/72.27.1294.636@72.27.1294.636" timestamp="1615282641406" />
+    <state width="1248" height="317" key="GridCell.Tab.0.right" timestamp="1615282641410">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state width="1248" height="317" key="GridCell.Tab.0.right/72.27.1294.636@72.27.1294.636" timestamp="1615282641410" />
+    <state x="202" y="27" width="1024" height="636" key="SettingsEditor" timestamp="1615018761412">
+      <screen x="72" y="27" width="1294" height="636" />
+    </state>
+    <state x="202" y="27" width="1024" height="636" key="SettingsEditor/72.27.1294.636@72.27.1294.636" timestamp="1615018761412" />
     <state x="231" y="49" width="965" height="599" key="new project wizard" timestamp="1614174419955">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
