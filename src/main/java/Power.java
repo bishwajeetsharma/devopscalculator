@@ -14,7 +14,7 @@ public class Power {
                 throw new ArithmeticException("indeterminant form");
             BigInteger result=BigInteger.valueOf((long) Math.pow(a, b));
             System.out.println(result);
-            logger.info("a to power b = "+result);
+            logger.info(a +"to power "+ b+ "= "+result);
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
             logger.error(e.getMessage());

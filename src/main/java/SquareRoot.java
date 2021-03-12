@@ -10,7 +10,7 @@ public class SquareRoot {
         try {
             if (a >= 0) {
                 System.out.println(Math.sqrt(a));
-                logger.info("square root of a is "+Math.sqrt(a));
+                logger.info("square root of "+a+" is "+Math.sqrt(a));
             }
             else
                 throw new ArithmeticException("Invalid input");
