@@ -23,16 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd042982-d802-49fa-adb0-14919692ad68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DivideTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/DivideTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DivideTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-DivideTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
-  <component name="RunManager" selected="JUnit.FactorialTest">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
       <module name="Calculator" />
@@ -139,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FactorialTest" />
         <item itemvalue="Application.Calculator" />
+        <item itemvalue="JUnit.FactorialTest" />
         <item itemvalue="JUnit.SquareRootTest" />
         <item itemvalue="JUnit.PowerTest" />
         <item itemvalue="JUnit.NaturalLogTest" />
@@ -159,7 +153,7 @@
       <workItem from="1614178095674" duration="744000" />
       <workItem from="1614179202469" duration="4444000" />
       <workItem from="1615013428722" duration="15488000" />
-      <workItem from="1615275609351" duration="6680000" />
+      <workItem from="1615275609351" duration="19986000" />
     </task>
     <task id="LOCAL-00001" summary="First bare code on add/divide to check pipeline flow">
       <created>1615014222135</created>
@@ -211,22 +205,22 @@
       <screen x="72" y="27" width="1294" height="636" />
     </state>
     <state x="461" y="88" width="495" height="520" key="FileChooserDialogImpl/72.27.1294.636@72.27.1294.636" timestamp="1615018659260" />
-    <state width="1248" height="317" key="GridCell.Tab.0.bottom" timestamp="1615282641415">
+    <state width="1248" height="317" key="GridCell.Tab.0.bottom" timestamp="1615302770232">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
-    <state width="1248" height="317" key="GridCell.Tab.0.bottom/72.27.1294.636@72.27.1294.636" timestamp="1615282641415" />
-    <state width="1248" height="317" key="GridCell.Tab.0.center" timestamp="1615282641409">
+    <state width="1248" height="317" key="GridCell.Tab.0.bottom/72.27.1294.636@72.27.1294.636" timestamp="1615302770232" />
+    <state width="1248" height="317" key="GridCell.Tab.0.center" timestamp="1615302770219">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
-    <state width="1248" height="317" key="GridCell.Tab.0.center/72.27.1294.636@72.27.1294.636" timestamp="1615282641409" />
-    <state width="1248" height="317" key="GridCell.Tab.0.left" timestamp="1615282641406">
+    <state width="1248" height="317" key="GridCell.Tab.0.center/72.27.1294.636@72.27.1294.636" timestamp="1615302770219" />
+    <state width="1248" height="317" key="GridCell.Tab.0.left" timestamp="1615302770203">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
-    <state width="1248" height="317" key="GridCell.Tab.0.left/72.27.1294.636@72.27.1294.636" timestamp="1615282641406" />
-    <state width="1248" height="317" key="GridCell.Tab.0.right" timestamp="1615282641410">
+    <state width="1248" height="317" key="GridCell.Tab.0.left/72.27.1294.636@72.27.1294.636" timestamp="1615302770203" />
+    <state width="1248" height="317" key="GridCell.Tab.0.right" timestamp="1615302770224">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
-    <state width="1248" height="317" key="GridCell.Tab.0.right/72.27.1294.636@72.27.1294.636" timestamp="1615282641410" />
+    <state width="1248" height="317" key="GridCell.Tab.0.right/72.27.1294.636@72.27.1294.636" timestamp="1615302770224" />
     <state x="202" y="27" width="1024" height="636" key="SettingsEditor" timestamp="1615018761412">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
