@@ -13,15 +13,14 @@ public class FactorialTest {
     @Test
     public void AssertTrueTest()
     {
-        Assert.assertTrue("Asserting NaN for factorial of negative number",Double.isNaN(f.factorial(-1)));
-        Assert.assertTrue("Asserting NaN for factorial of a number > 20",Double.isNaN(f.factorial(21)));
         logger.info("Executing AssertNull tests");
+        Assert.assertTrue("Asserting NaN for factorial of negative number",Double.isNaN(f.factorial(-1)));
     }
 
     @Test
     public void AssertNotNullTest()
     {
-        Assert.assertNotNull("Asserting Not NaN for factorial of number between 1 and 20",f.factorial(3));
         logger.info("Executing AssertNotNull tests");
+        Assert.assertNotNull("Asserting Not NaN for factorial of non-negative number",f.factorial(7));
     }
 }
