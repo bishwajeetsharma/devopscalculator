@@ -1,25 +1,27 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Random;
+
+
 
 public class FactorialTest {
     private static final Logger logger = LogManager.getLogger(FactorialTest.class);
+    Factorial f=new Factorial();
     @Test
-    public void testfactorial()
+    public void AssertTrueTest()
     {
-        try {
-            logger.info("Tests for factorial of negative numbers executing.....");
-            Factorial f = new Factorial();
-            f.factorial(-1);
-        }
-        catch(ArithmeticException e)
-        {
-            logger.error("Test fails");
-        }
-        finally {
-            logger.info("Done");
-        }
+        Assert.assertTrue("Asserting NaN for factorial of negative number",Double.isNaN(f.factorial(-1)));
+        Assert.assertTrue("Asserting NaN for factorial of a number > 20",Double.isNaN(f.factorial(21)));
+        logger.info("Executing AssertNull tests");
+    }
+
+    @Test
+    public void AssertNotNullTest()
+    {
+        Assert.assertNotNull("Asserting Not NaN for factorial of number between 1 and 20",f.factorial(3));
+        logger.info("Executing AssertNotNull tests");
     }
 }
