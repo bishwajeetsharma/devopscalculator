@@ -2,8 +2,7 @@ import org.junit.Test;
 
 import java.util.Random;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
+
 
 public class DivideTest {
     @Test(expected = java.lang.ArithmeticException.class)

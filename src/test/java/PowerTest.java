@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class PowerTest {
     private static final Logger logger = LogManager.getLogger(PowerTest.class);
-    double delta=Double.POSITIVE_INFINITY;
     Power p = new Power();
     @Test
     public void assertEqualsTest()

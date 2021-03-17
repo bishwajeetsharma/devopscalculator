@@ -9,21 +9,26 @@ public class SquareRootTest {
     @Test
     public void truepositive()
     {
+        logger.info("Executing TruePositive test case");
         Assert.assertTrue("Executing TruePositive test case",Double.isNaN(s.sroot(-1)));
     }
     @Test
     public void truenegative()
     {
+        logger.info("Executing TrueNegative test case");
         Assert.assertNotEquals("Executing TrueNegative test case",true,Double.isNaN(s.sroot(1)));
     }
     @Test
     public void falsepositive()
     {
+        logger.info("Executing FalsePositive test case");
         Assert.assertFalse("Executing FalsePositive test case",Double.isNaN(s.sroot(1)));
+
     }
     @Test
     public void falsenegative()
     {
-        Assert.assertNotEquals("Executing FalsePositive test case",false,Double.isNaN(s.sroot(-1)));
+        logger.info("Executing FalseNegative test case");
+        Assert.assertNotEquals("Executing FalseNegative test case",false,Double.isNaN(s.sroot(-1)));
     }
 }
